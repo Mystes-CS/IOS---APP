@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0CC1DF207A453D00175561 /* AsobiMemogaki-Regular-1-01.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC0CC1DE207A453D00175561 /* AsobiMemogaki-Regular-1-01.ttf */; };
+		DC0CC1E1207A475800175561 /* ShigotoMemogaki-Regular-1-01.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC0CC1E0207A475800175561 /* ShigotoMemogaki-Regular-1-01.ttf */; };
+		DC0CC1E4207A4BA500175561 /* setofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC0CC1E2207A490500175561 /* setofont.ttf */; };
+		DC0CC1E6207A4F3C00175561 /* setofont-ex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC0CC1E5207A4F3C00175561 /* setofont-ex.ttf */; };
 		DC440B1420779ED400D54CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC440B1320779ED400D54CB2 /* AppDelegate.swift */; };
 		DC440B1620779ED400D54CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC440B1520779ED400D54CB2 /* ViewController.swift */; };
 		DC440B1920779ED400D54CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC440B1720779ED400D54CB2 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		DC440B1E20779ED400D54CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC440B1C20779ED400D54CB2 /* LaunchScreen.storyboard */; };
 		DC440B2920779ED400D54CB2 /* ___APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC440B2820779ED400D54CB2 /* ___APPTests.swift */; };
 		DC440B3420779ED400D54CB2 /* ___APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC440B3320779ED400D54CB2 /* ___APPUITests.swift */; };
+		DC8A5114207BB04A00A3AC94 /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC8A5113207BB04A00A3AC94 /* Music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC0CC1DE207A453D00175561 /* AsobiMemogaki-Regular-1-01.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AsobiMemogaki-Regular-1-01.ttf"; sourceTree = "<group>"; };
+		DC0CC1E0207A475800175561 /* ShigotoMemogaki-Regular-1-01.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShigotoMemogaki-Regular-1-01.ttf"; sourceTree = "<group>"; };
+		DC0CC1E2207A490500175561 /* setofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = setofont.ttf; sourceTree = "<group>"; };
+		DC0CC1E5207A4F3C00175561 /* setofont-ex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "setofont-ex.ttf"; sourceTree = "<group>"; };
 		DC440B1020779ED400D54CB2 /* 電子書APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "電子書APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC440B1320779ED400D54CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC440B1520779ED400D54CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		DC440B2F20779ED400D54CB2 /* 電子書APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "電子書APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC440B3320779ED400D54CB2 /* ___APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___APPUITests.swift"; sourceTree = "<group>"; };
 		DC440B3520779ED400D54CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8A5113207BB04A00A3AC94 /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		DC440B1220779ED400D54CB2 /* 電子書APP */ = {
 			isa = PBXGroup;
 			children = (
+				DC8A5113207BB04A00A3AC94 /* Music.mp3 */,
+				DC0CC1E5207A4F3C00175561 /* setofont-ex.ttf */,
+				DC0CC1E2207A490500175561 /* setofont.ttf */,
+				DC0CC1E0207A475800175561 /* ShigotoMemogaki-Regular-1-01.ttf */,
+				DC0CC1DE207A453D00175561 /* AsobiMemogaki-Regular-1-01.ttf */,
 				DC440B1320779ED400D54CB2 /* AppDelegate.swift */,
 				DC440B1520779ED400D54CB2 /* ViewController.swift */,
 				DC440B1720779ED400D54CB2 /* Main.storyboard */,
@@ -194,6 +209,11 @@
 					DC440B0F20779ED400D54CB2 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					DC440B2320779ED400D54CB2 = {
 						CreatedOnToolsVersion = 8.2;
@@ -232,9 +252,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0CC1E4207A4BA500175561 /* setofont.ttf in Resources */,
+				DC0CC1E6207A4F3C00175561 /* setofont-ex.ttf in Resources */,
 				DC440B1E20779ED400D54CB2 /* LaunchScreen.storyboard in Resources */,
+				DC0CC1DF207A453D00175561 /* AsobiMemogaki-Regular-1-01.ttf in Resources */,
+				DC0CC1E1207A475800175561 /* ShigotoMemogaki-Regular-1-01.ttf in Resources */,
 				DC440B1B20779ED400D54CB2 /* Assets.xcassets in Resources */,
 				DC440B1920779ED400D54CB2 /* Main.storyboard in Resources */,
+				DC8A5114207BB04A00A3AC94 /* Music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "電子書APP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zonghan.---APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "電子書APP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zonghan.---APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +532,7 @@
 				DC440B3A20779ED400D54CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC440B3B20779ED400D54CB2 /* Build configuration list for PBXNativeTarget "電子書APPTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +541,7 @@
 				DC440B3D20779ED400D54CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC440B3E20779ED400D54CB2 /* Build configuration list for PBXNativeTarget "電子書APPUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +550,7 @@
 				DC440B4020779ED400D54CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
